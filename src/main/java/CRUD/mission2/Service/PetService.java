@@ -1,5 +1,6 @@
-package CRUD.mission2;
+package CRUD.mission2.Service;
 
+import CRUD.mission2.Pet.Pet;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
