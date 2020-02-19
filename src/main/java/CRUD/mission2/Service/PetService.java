@@ -8,12 +8,7 @@ import java.util.*;
 @Service
 public class PetService {
 
-    private List<Pet> PetList = new ArrayList<>(Arrays.asList(
-            new Pet(1, "Hamster ", 0.5),
-            new Pet(2, "Jack Sparrow", 0.8),
-            new Pet(3, "Bengal Cat", 1.5),
-            new Pet(4,"Bull Dog", 4.0)
-    ));
+    private List<Pet> PetList = new ArrayList<>(Arrays.asList());
 
     public List<Pet> getAllPetsList() {
 
