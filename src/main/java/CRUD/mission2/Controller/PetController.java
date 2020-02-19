@@ -1,4 +1,7 @@
-package CRUD.mission2;
+package CRUD.mission2.Controller;
+
+import CRUD.mission2.Pet.Pet;
+import CRUD.mission2.Service.PetService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -18,10 +21,9 @@ public class PetController {
     }
 
     @GetMapping("/pets/{petID}")
-    Pet one(@PathVariable ("petID") Integer petID) {
+    public Pet getPet(@PathVariable("petID") Integer petID) {
 
         return petsService.getPet(petID);
-
     }
 
     @PostMapping("/pets")
