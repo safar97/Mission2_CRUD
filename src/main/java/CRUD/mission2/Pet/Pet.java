@@ -1,4 +1,4 @@
-package CRUD.mission2;
+package CRUD.mission2.Pet;
 
 import lombok.*;
 
